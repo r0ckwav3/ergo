@@ -147,15 +147,15 @@
 
   if argc == 0 {
     panic("Must pass in at least one positional arguments")
-  } else if argc == 1{
+  } else if argc == 1 {
     statement-body = args.at(0)
-  } else if argc == 2{
+  } else if argc == 2 {
     statement-body = args.at(0)
-    solution-body = args.at(1)
-  } else if argc == 3{
-    title = args.at(0)
+    solution-body  = args.at(1)
+  } else if argc == 3 {
+    title          = args.at(0)
     statement-body = args.at(1)
-    solution-body = args.at(2)
+    solution-body  = args.at(2)
   } else {
     panic("Must pass in at most 3 positional arguments")
   }
